@@ -40,23 +40,23 @@ body {
 }
 
 .slideshow li:nth-child(1) { 
-  background-image: url(https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd27a515bce2dade58bc288fde28f290&auto=format&fit=crop&w=793&q=80) 
+  background-image: url(https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixlib=rb-0.3.5&s=76dce2bf12b461c32d89636d8f0760b0&auto=format&fit=crop&w=793&q=80) 
 }
 .slideshow li:nth-child(2) { 
-  background-image: url(http://i.imgur.com/SBEmFpv.jpg);
-  animation-delay: 10s; 
+  background-image: url(https://images.unsplash.com/photo-1414016642750-7fdd78dc33d9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8998dc495eb8297e462e31d15857bd72&auto=format&fit=crop&w=749&q=80);
+  animation-delay: 8s; 
 }
 .slideshow li:nth-child(3) { 
-  background-image: url(http://i.imgur.com/emvhOnb.jpg);
-  animation-delay: 20s; 
+  background-image: url(https://images.unsplash.com/photo-1491582990992-68ec88e070a3?ixlib=rb-0.3.5&s=be94c0bf4317a7b0cb0dee820ebb679e&auto=format&fit=crop&w=889&q=80);
+  animation-delay: 16s; 
 }
 .slideshow li:nth-child(4) { 
-  background-image: url(http://i.imgur.com/2LSMCmJ.jpg);
-  animation-delay: 30s; 
+  background-image: url(https://images.unsplash.com/photo-1474576142067-3d38a82550b2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1b635ad3d014132ac622e97b912a823f&auto=format&fit=crop&w=1500&q=80);
+  animation-delay: 24s; 
 }
 .slideshow li:nth-child(5) { 
-  background-image: url(http://i.imgur.com/TVGe0Ef.jpg);
-  animation-delay: 40s; 
+  background-image: url(https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5cedc6b95f731395da7269d2341f9a5e&auto=format&fit=crop&w=750&q=80);
+  animation-delay: 32s; 
 }
 
 @keyframes imageAnimation { 
