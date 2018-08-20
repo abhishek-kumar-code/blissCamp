@@ -20,8 +20,11 @@ var commentRoutes    = require("./routes/comments"),
     
 //mongodb://<abhishek>:<blisscamp7>@ds125912.mlab.com:25912/blisscamp
 
-//mongoose.connect('mongodb://localhost:27017/bliss_camp', { useNewUrlParser: true });
-mongoose.connect('mongodb://abhishek:blisscamp7@ds125912.mlab.com:25912/blisscamp', { useNewUrlParser: true });
+// Local Database
+mongoose.connect(process.env.DATABASEURL, { useNewUrlParser: true });
+//process.env.databaseURL
+// MongoLab Database
+//mongoose.connect('mongodb://abhishek:blisscamp7@ds125912.mlab.com:25912/blisscamp', { useNewUrlParser: true });
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
